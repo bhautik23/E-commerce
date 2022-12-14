@@ -39,25 +39,26 @@ class MyThemes {
   );
 
   static final LightTheme = ThemeData(
-      // primarySwatch: Colors.red,
-      primaryColor: Color(0xff0D9444),
-      primaryColorDark: color.blackbutton,
-      appBarTheme: const AppBarTheme(
-          elevation: 0,
-          systemOverlayStyle: SystemUiOverlayStyle.dark, // 2
-          iconTheme: IconThemeData(
-            color: Colors.black,
-          ),
-          backgroundColor: Colors.transparent,
-          titleTextStyle: TextStyle(color: Colors.black)),
-      // primaryColor: Colors.blue,
+    // primarySwatch: Colors.red,
+    primaryColor: Color(0xff0D9444),
+    primaryColorDark: color.blackbutton,
+    appBarTheme: const AppBarTheme(
+        elevation: 0,
+        systemOverlayStyle: SystemUiOverlayStyle.dark, // 2
+        iconTheme: IconThemeData(
+          color: Colors.black,
+        ),
+        backgroundColor: Colors.transparent,
+        titleTextStyle: TextStyle(color: Colors.black)),
+    // primaryColor: Colors.blue,
 
-      iconTheme: IconThemeData(
-        color: Colors.black,
-      ),
-      bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          selectedItemColor: Colors.black, unselectedItemColor: Colors.black12),
-      scaffoldBackgroundColor: Colors.white,
-      // primarySwatch: Colors.grey,
-      colorScheme: const ColorScheme.light());
+    iconTheme: IconThemeData(
+      color: Colors.black,
+    ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        selectedItemColor: Colors.black, unselectedItemColor: Colors.black12),
+    scaffoldBackgroundColor: Colors.white,
+    // primarySwatch: Colors.grey,
+    colorScheme: const ColorScheme.light(),
+  );
 }
